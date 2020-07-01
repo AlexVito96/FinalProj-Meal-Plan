@@ -22,4 +22,9 @@ export class AppComponent {
     console.log(name);
   }
   
+  something(){
+    console.log("Btn clicked");
+    this.title = 'This is amazing';
+  }
+
 }
